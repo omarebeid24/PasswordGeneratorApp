@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="about" fill="#28227c" layoutX="13.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I am Omar and I am the creator of this app, and I'd like to welcome you to the Password Generator AppThis app was build to help you find a good and strong passwordThis App was build in 2024 and it's a final project for the data structure class.Here you can generate a new password that you can use for your social media platforms or e-mails.And if you already have a password and you wanted to know if it's a strong password or not try the password checker service to see if your password is a good fit or no!Please leave us a good review and a feedback about the app." textAlignment="CENTER" wrappingWidth="573.18408203125">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="201.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon.png" />
+         </image>
+      </ImageView>
+      <HBox layoutX="87.0" layoutY="257.0" spacing="30.0" />
+      <Group layoutX="-41.0" layoutY="-4.0" />
+      <Group />
+      <Text fill="#28227c" layoutX="247.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About the App">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="back_button_about" fill="#28227c" layoutX="20.0" layoutY="56.0" onMouseClicked="#goToHome" strokeType="OUTSIDE" strokeWidth="0.0" text="🔙">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

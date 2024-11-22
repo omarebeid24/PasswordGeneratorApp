@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField editable="false" layoutX="153.0" layoutY="231.0" prefHeight="31.0" prefWidth="290.0" />
+      <Button layoutX="257.0" layoutY="338.0" mnemonicParsing="false" style="-fx-border-color: #28227c; -fx-border-width: 3; -fx-border-radius: 50px; -fx-background-radius: 50px; -fx-background-color: white;" text="Generate" textFill="#070707" />
+      <Text fill="#28227c" layoutX="173.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click for a custom password generate">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
