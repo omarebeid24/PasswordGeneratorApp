@@ -1,6 +1,7 @@
 # Password Generator App
 
 This **Java-based application**, built with a **Graphical User Interface (GUI)**, enables users to generate secure passwords tailored to their preferences, ensuring robust security for various purposes.
+You can apply the attached files with scene builder for GUI or Run the following commands.
 
 ---
 
